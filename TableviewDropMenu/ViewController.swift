@@ -17,8 +17,6 @@ var CountRow:Int = 0
 
 class ViewController: UIViewController , UITableViewDelegate , UITableViewDataSource {
     
-//    @IBOutlet weak var ListName: UILabel!
-    
     
     @IBOutlet weak var backgroundView: UIView!
     
@@ -85,6 +83,7 @@ DropButton(sender)
         
         DropList.isHidden = true
         ViewBloewTable.isHidden = true
+        
         DButtonOutlet.setStyle(DynamicButtonStyle.caretDown, animated: true)
         
         
